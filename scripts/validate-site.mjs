@@ -11,8 +11,10 @@ const requiredFiles = [
   "product-quercetin.html",
   "robots.txt",
   "sitemap.xml",
-  "images/optimized/airkind-logo-brand.webp",
-  "images/optimized/quercetin-plus-bottle-front-product.webp"
+  "images/responsive/airkind-logo-brand-400.webp",
+  "images/responsive/quercetin-plus-bottle-front-800.webp",
+  "images/responsive/quercetin-plus-label-full-400.webp",
+  "images/responsive/quercetin-plus-supplement-facts-400.webp"
 ];
 
 function walk(dir) {
