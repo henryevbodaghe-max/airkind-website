@@ -11,7 +11,9 @@
     <a class="skip-link" href="#main-content">Skip to content</a>
     <header class="site-header">
       <nav class="nav" aria-label="Main navigation">
-        <a class="logo" href="index.html">AirKind</a>
+        <a class="logo" href="index.html" aria-label="AirKind home">
+          <img src="images/optimized/airkind-logo-brand.webp" alt="AirKind" width="220" height="57">
+        </a>
         <div class="nav-links">
           <a href="product-mushroom.html">Mushroom Complex</a>
           <a href="product-quercetin.html">Quercetin Plus</a>
@@ -37,6 +39,14 @@
           <p>AirKind Premium Mushroom Complex Powder is available in select stores soon.</p>
           <h2>Retail and wholesale</h2>
           <p>Please include your store name, location, and best contact information in your message.</p>
+          <form class="signup-form compact-form" action="mailto:hello@airkind.com" method="post" enctype="text/plain">
+            <label for="contact-email">Availability updates</label>
+            <div class="form-row">
+              <input id="contact-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
+              <button class="button" type="submit">Notify me</button>
+            </div>
+            <p>Updates cover AirKind product availability and retail news only.</p>
+          </form>
           <h2>Product questions</h2>
           <p>For finished product directions and facts, rely on the product label once products are available.</p>
         </div>
@@ -44,7 +54,11 @@
     </main>
     <footer class="site-footer">
       <div class="footer-inner">
-        <div><a class="logo" href="index.html">AirKind</a></div>
+        <div>
+          <a class="logo footer-logo" href="index.html" aria-label="AirKind home">
+            <img src="images/optimized/airkind-logo-brand.webp" alt="AirKind" width="220" height="57">
+          </a>
+        </div>
         <p class="fine-print">These statements have not been evaluated by the Food and Drug Administration. AirKind products are not intended to diagnose, treat, cure, or prevent any disease.</p>
       </div>
     </footer>
