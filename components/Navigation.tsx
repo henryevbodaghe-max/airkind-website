@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { navItems } from "@/lib/content";
@@ -12,17 +13,14 @@ export function Navigation() {
     <header className="sticky top-0 z-50 border-b border-air-green/10 bg-air-white/90 backdrop-blur-xl">
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center gap-3" aria-label="AirKind home">
-          <span className="flex h-9 w-9 items-center justify-center rounded-full bg-air-green text-sm font-bold text-white">
-            A
-          </span>
-          <span>
-            <span className="block font-serif text-2xl font-semibold leading-none text-air-green">
-              AirKind
-            </span>
-            <span className="block text-[10px] font-bold uppercase tracking-[0.22em] text-air-gold">
-              Daily Wellness
-            </span>
-          </span>
+          <Image
+            src="/images/airkind-logo-lockup.png"
+            alt="AirKind"
+            width={178}
+            height={76}
+            priority
+            className="h-12 w-auto object-contain"
+          />
         </Link>
 
         <div className="hidden items-center gap-6 lg:flex">
@@ -41,7 +39,7 @@ export function Navigation() {
           href="/product"
           className="hidden min-h-11 items-center justify-center rounded-full bg-air-green px-5 text-sm font-semibold text-white transition hover:bg-air-charcoal lg:inline-flex"
         >
-          Shop Complex
+          Join Launch List
         </Link>
 
         <button

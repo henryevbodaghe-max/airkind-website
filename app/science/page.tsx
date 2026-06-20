@@ -19,13 +19,13 @@ export default function SciencePage() {
         {[
           {
             icon: Microscope,
-            title: "Collagen cofactors",
-            copy: "Collagen peptides pair with vitamin C and hyaluronic acid to support healthy skin and normal collagen formation."
+            title: "Quercetin support",
+            copy: "Quercetin is positioned to support a healthy histamine response and everyday seasonal wellness."
           },
           {
             icon: ShieldCheck,
-            title: "Mushroom wellness",
-            copy: "Lion's mane, reishi, turkey tail, cordyceps, chaga, and maitake are positioned for focus, immune health, energy, and daily wellness support."
+            title: "Zinc and bromelain",
+            copy: "Zinc supports normal immune function, while bromelain supports digestive enzyme activity and protein digestion."
           },
           {
             icon: Scale,

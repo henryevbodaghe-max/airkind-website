@@ -5,15 +5,15 @@ import { ingredientDetails } from "@/lib/content";
 export const metadata: Metadata = {
   title: "Ingredients",
   description:
-    "Explore the AirKind ingredient stack, including collagen peptides, hyaluronic acid, vitamin C, biotin, zinc, functional mushrooms, and vitamin D3."
+    "Explore AirKind Quercetin Plus ingredients, including quercetin, zinc, bromelain, and other label components."
 };
 
 export default function IngredientsPage() {
   return (
     <Section
       eyebrow="Ingredients"
-      title="A complete wellness stack, explained simply."
-      copy="Each ingredient is framed by its intended structure/function role and selected to support a refined daily wellness ritual."
+      title="Focused ingredients, explained simply."
+      copy="Each ingredient is framed by its intended structure/function role and selected to support a clear daily wellness ritual."
     >
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {ingredientDetails.map((ingredient) => (

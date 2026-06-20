@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { fdaDisclaimer, navItems } from "@/lib/content";
+import { fdaDisclaimer, navItems, product } from "@/lib/content";
 
 export function Footer() {
   return (
@@ -10,9 +10,8 @@ export function Footer() {
             AirKind
           </Link>
           <p className="mt-3 max-w-md text-sm leading-6 text-white/72">
-            Wellness as essential as the air you breathe. Premium collagen and
-            mushroom wellness supplements for daily beauty, focus, immune
-            health, energy, and healthy aging support.
+            {product.name} pairs quercetin, zinc, and bromelain for daily
+            respiratory and immune wellness support.
           </p>
           <p className="mt-5 max-w-xl text-xs leading-6 text-white/58">
             {fdaDisclaimer}

@@ -1,10 +1,10 @@
 import {
+  Activity,
   Brain,
-  HeartPulse,
+  CircleGauge,
   Leaf,
   ShieldCheck,
-  Sparkles,
-  SunMedium
+  Sparkles
 } from "lucide-react";
 
 export const navItems = [
@@ -17,154 +17,131 @@ export const navItems = [
   { href: "/contact", label: "Contact" }
 ];
 
+export const siteUrl = "https://airkindwellness.com";
+
+export const product = {
+  name: "AirKind Quercetin Plus",
+  shortName: "Quercetin Plus",
+  tagline: "Daily Respiratory & Immune Support",
+  description:
+    "AirKind Quercetin Plus is a daily wellness supplement formulated with quercetin, zinc, and bromelain to support immune function, a healthy histamine response, and digestive enzyme activity.",
+  serving: "Take two capsules once daily, preferably 20-30 minutes before a meal or as directed by your healthcare professional.",
+  supply: "30 day supply",
+  count: "60 capsules",
+  price: "Retail availability coming soon"
+};
+
 export const benefits = [
   {
-    title: "Beauty",
-    copy: "Supports healthy skin elasticity, hydration, and a luminous everyday glow.",
-    icon: Sparkles
-  },
-  {
-    title: "Longevity",
-    copy: "Supports healthy aging with nutrients selected for daily resilience.",
-    icon: SunMedium
-  },
-  {
-    title: "Focus",
-    copy: "Supports focus with functional mushrooms that fit naturally into a morning ritual.",
-    icon: Brain
-  },
-  {
-    title: "Immunity",
-    copy: "Supports immune health with vitamin D3, zinc, vitamin C, and mushroom extracts.",
+    title: "Immune Function",
+    copy: "Zinc supports normal immune function and helps maintain the body's natural defenses.",
     icon: ShieldCheck
   },
   {
-    title: "Energy",
-    copy: "Supports energy without relying on caffeine or harsh stimulant positioning.",
-    icon: HeartPulse
+    title: "Healthy Histamine Response",
+    copy: "Quercetin helps support a healthy histamine response as part of everyday seasonal wellness.",
+    icon: Leaf
   },
   {
-    title: "Joint Comfort",
-    copy: "Supports joint comfort through collagen peptides and complementary cofactors.",
-    icon: Leaf
+    title: "Respiratory Comfort",
+    copy: "A focused daily formula designed to support respiratory comfort without disease claims.",
+    icon: Activity
+  },
+  {
+    title: "Digestive Enzyme Activity",
+    copy: "Bromelain is a natural enzyme that supports protein digestion and nutrient absorption.",
+    icon: CircleGauge
+  },
+  {
+    title: "Simple Daily Ritual",
+    copy: "Two capsules once daily, with a clean 30-day supply designed for consistent use.",
+    icon: Sparkles
+  },
+  {
+    title: "Clean Label Priorities",
+    copy: "Free of the top 9 allergens and made without artificial colors, wheat, soy, or sesame.",
+    icon: Brain
   }
 ];
 
 export const ingredients = [
-  "Collagen peptides",
-  "Hyaluronic acid",
-  "Vitamin C",
-  "Biotin",
+  "Quercetin",
   "Zinc",
-  "Lion's mane",
-  "Reishi",
-  "Turkey tail",
-  "Cordyceps",
-  "Chaga",
-  "Maitake",
-  "Vitamin D3"
+  "Bromelain",
+  "Vegetable capsule",
+  "Silicon dioxide",
+  "Vegetable stearate"
 ];
 
 export const ingredientDetails = [
   {
-    name: "Collagen Peptides",
-    category: "Beauty + Structure",
+    name: "Quercetin",
+    category: "Plant Flavonoid",
     description:
-      "A foundational protein source selected to support healthy skin and joint comfort."
-  },
-  {
-    name: "Hyaluronic Acid",
-    category: "Hydration",
-    description:
-      "A moisture-supporting compound included to support skin hydration from within."
-  },
-  {
-    name: "Vitamin C",
-    category: "Cofactor",
-    description:
-      "An essential antioxidant nutrient that supports normal collagen formation."
-  },
-  {
-    name: "Biotin",
-    category: "Beauty Nutrient",
-    description:
-      "A B vitamin included to support healthy hair, skin, and nails."
+      "A naturally occurring flavonoid selected to support a healthy histamine response and everyday seasonal wellness."
   },
   {
     name: "Zinc",
-    category: "Immune + Skin",
+    category: "Essential Mineral",
     description:
-      "A trace mineral that supports immune health and healthy skin function."
+      "An essential mineral that supports normal immune function and helps maintain everyday resilience."
   },
   {
-    name: "Lion's Mane",
-    category: "Focus",
+    name: "Bromelain",
+    category: "Enzyme Support",
     description:
-      "A revered mushroom selected for daily focus and cognitive wellness support."
+      "A pineapple-derived enzyme included to support digestive enzyme activity and protein digestion."
   },
   {
-    name: "Reishi",
-    category: "Calm Resilience",
+    name: "Vegetable Capsule",
+    category: "Capsule",
     description:
-      "A functional mushroom traditionally associated with balanced, everyday resilience."
+      "Hypromellose capsules provide a simple vegetarian delivery format."
   },
   {
-    name: "Turkey Tail",
-    category: "Immune Health",
+    name: "Silicon Dioxide",
+    category: "Other Ingredient",
     description:
-      "A mushroom extract chosen to support immune health as part of a daily stack."
+      "Used in small amounts to support product consistency during manufacturing."
   },
   {
-    name: "Cordyceps",
-    category: "Energy",
+    name: "Vegetable Stearate",
+    category: "Other Ingredient",
     description:
-      "A functional mushroom selected to support energy and active living."
-  },
-  {
-    name: "Chaga",
-    category: "Antioxidant Support",
-    description:
-      "A nutrient-dense mushroom included for antioxidant and whole-body wellness support."
-  },
-  {
-    name: "Maitake",
-    category: "Daily Wellness",
-    description:
-      "A functional mushroom selected to round out immune and metabolic wellness support."
-  },
-  {
-    name: "Vitamin D3",
-    category: "Immune + Bone",
-    description:
-      "A key vitamin included to support immune health and healthy bones."
+      "Used to support capsule production and ingredient flow."
   }
 ];
 
 export const faqs = [
   {
-    question: "What is AirKind Beauty & Longevity Complex?",
+    question: "What is AirKind Quercetin Plus?",
     answer:
-      "It is a premium daily supplement concept combining collagen, beauty nutrients, and functional mushrooms to support healthy skin, focus, immune health, energy, healthy aging, and joint comfort."
+      "AirKind Quercetin Plus is a daily wellness supplement with quercetin, zinc, and bromelain to support immune function, healthy histamine response, and digestive enzyme activity."
   },
   {
-    question: "What claims does AirKind make?",
+    question: "Does AirKind Quercetin Plus make disease claims?",
     answer:
-      "No. AirKind uses structure/function language and is designed to support normal wellness functions. It is not intended to diagnose, treat, cure, or prevent any disease."
+      "No. AirKind uses structure/function language and avoids disease claims. The product is not intended to diagnose, treat, cure, or prevent any disease."
   },
   {
     question: "When should I take it?",
     answer:
-      "AirKind is designed as a daily ritual. Many people prefer taking collagen and mushroom wellness blends in the morning or early afternoon."
+      "Suggested use is two capsules once daily, preferably 20-30 minutes before a meal or as directed by your healthcare professional."
   },
   {
-    question: "Is it subscription friendly?",
+    question: "What are the active ingredients?",
     answer:
-      "Yes. The site is designed around a monthly ritual with subscription messaging, flexible delivery language, and conversion-focused CTAs."
+      "Each serving lists zinc, quercetin, and bromelain on the Supplement Facts panel. Always review the label before use."
   },
   {
     question: "Who should speak with a healthcare professional first?",
     answer:
-      "Anyone pregnant, nursing, taking medication, managing a health condition, or planning a supplement routine for a child should consult a qualified healthcare professional before use."
+      "Anyone pregnant, nursing, taking medication, managing a health condition, under 18, or planning a supplement routine for a child should consult a qualified healthcare professional before use."
+  },
+  {
+    question: "Where can I buy AirKind Quercetin Plus?",
+    answer:
+      "Retail availability is coming soon. Join the AirKind list or contact the team for launch updates and wholesale inquiries."
   }
 ];
 

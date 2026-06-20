@@ -6,7 +6,7 @@ import { faqs } from "@/lib/content";
 export const metadata: Metadata = {
   title: "FAQ",
   description:
-    "Answers to common AirKind questions about benefits, supplement claims, subscriptions, and responsible use."
+    "Answers to common AirKind Quercetin Plus questions about benefits, supplement claims, usage, availability, and responsible use."
 };
 
 export default function FaqPage() {
@@ -14,7 +14,7 @@ export default function FaqPage() {
     <Section
       eyebrow="FAQ"
       title="Frequently asked questions."
-      copy="Simple answers about the AirKind product concept, daily use, and supplement compliance."
+      copy="Simple answers about AirKind Quercetin Plus, daily use, availability, and supplement compliance."
     >
       <div className="max-w-4xl">
         {faqs.map((faq) => (

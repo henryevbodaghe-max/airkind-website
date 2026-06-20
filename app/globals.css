@@ -21,6 +21,19 @@ body {
     linear-gradient(180deg, rgba(220, 239, 244, 0.55), rgba(251, 250, 246, 0) 420px),
     #fbfaf6;
   color: #18231f;
+  overflow-x: hidden;
+}
+
+.mobile-safe-column {
+  min-width: 0;
+  max-width: calc(100vw - 2.5rem);
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .mobile-safe-column {
+    max-width: none;
+  }
 }
 
 ::selection {
