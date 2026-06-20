@@ -314,6 +314,21 @@ p {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.grid.four {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.flagship-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(280px, 0.85fr);
+  gap: 42px;
+  align-items: center;
+}
+
+.compact-reserve {
+  min-height: 320px;
+}
+
 .product-card,
 .info-card,
 .faq-item {
@@ -337,6 +352,14 @@ p {
   background:
     linear-gradient(135deg, rgba(95, 127, 104, 0.12), rgba(255, 253, 248, 0.92)),
     var(--paper);
+}
+
+.secondary-card {
+  box-shadow: none;
+}
+
+.product-family-grid {
+  grid-template-columns: minmax(0, 1.2fr) minmax(260px, 0.8fr);
 }
 
 .card-product-image {
@@ -473,6 +496,31 @@ p {
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--paper);
+}
+
+.ingredient-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--line);
+}
+
+.ingredient-grid article {
+  min-height: 160px;
+  padding: 22px;
+  background: var(--paper);
+}
+
+.ingredient-grid h3 {
+  font-size: 1.12rem;
+}
+
+.ingredient-grid p {
+  margin-top: 10px;
+  color: var(--muted);
 }
 
 .detail-list {
@@ -638,11 +686,15 @@ input:focus-visible {
   }
 
   .hero-inner,
+  .flagship-layout,
   .product-layout,
   .footer-inner,
   .grid.two,
   .grid.three,
+  .grid.four,
+  .ingredient-grid,
   .product-meta,
+  .product-family-grid,
   .retail-grid,
   .contact-grid {
     grid-template-columns: 1fr;
