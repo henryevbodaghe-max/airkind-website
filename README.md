@@ -19,9 +19,25 @@ Plain static website for AirKind. No framework, no npm, and no build step.
 
 Open `index.html` in a browser, or serve the folder with any static file server.
 
-## Deployment
+## Vercel deployment
 
-This site can be deployed directly to Vercel, Netlify, GitHub Pages, Cloudflare Pages, or any static host. The publish directory is the repository root.
+1. Import this repository in Vercel.
+2. Set the framework preset to `Other`.
+3. Leave the build command blank.
+4. Leave the output directory blank, or set it to `.`.
+5. Deploy from the `main` branch.
+
+## Netlify deployment
+
+1. Create a new site from Git.
+2. Select this repository.
+3. Leave the build command blank.
+4. Set the publish directory to `.`.
+5. Deploy from the `main` branch.
+
+## Other static hosts
+
+This site can also be deployed to GitHub Pages, Cloudflare Pages, or any static host. The publish directory is the repository root.
 
 ## Compliance notes
 
