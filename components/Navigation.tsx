@@ -14,7 +14,7 @@ export function Navigation() {
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center gap-3" aria-label="AirKind home">
           <Image
-            src="/images/airkind-logo-lockup.png"
+            src="/images/airkind-logo-lockup.webp"
             alt="AirKind"
             width={178}
             height={76}

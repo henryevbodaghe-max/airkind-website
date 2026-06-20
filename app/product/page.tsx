@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     title: "AirKind Quercetin Plus",
     description: "Daily Respiratory & Immune Support with quercetin, zinc, and bromelain.",
     url: `${siteUrl}/product`,
-    images: ["/images/quercetin-plus-bottle-front.jpg"]
+    images: ["/images/quercetin-plus-bottle-front.webp"]
   }
 };
 
@@ -42,9 +42,9 @@ export default function ProductPage() {
     },
     description: product.description,
     image: [
-      `${siteUrl}/images/quercetin-plus-bottle-front.jpg`,
-      `${siteUrl}/images/quercetin-plus-bottle-lifestyle.jpg`,
-      `${siteUrl}/images/quercetin-plus-label-full.jpg`
+      `${siteUrl}/images/quercetin-plus-bottle-front.webp`,
+      `${siteUrl}/images/quercetin-plus-bottle-lifestyle.webp`,
+      `${siteUrl}/images/quercetin-plus-label-full.webp`
     ],
     category: "Dietary Supplement",
     offers: {
@@ -68,15 +68,15 @@ export default function ProductPage() {
             <div className="grid grid-cols-3 gap-3">
               {[
                 {
-                  src: "/images/quercetin-plus-bottle-lifestyle.jpg",
+                  src: "/images/quercetin-plus-bottle-lifestyle.webp",
                   alt: "AirKind Quercetin Plus lifestyle bottle render"
                 },
                 {
-                  src: "/images/quercetin-plus-bottle-angle.jpg",
+                  src: "/images/quercetin-plus-bottle-angle.webp",
                   alt: "AirKind Quercetin Plus angled bottle render"
                 },
                 {
-                  src: "/images/quercetin-plus-front-label.png",
+                  src: "/images/quercetin-plus-front-label.webp",
                   alt: "AirKind Quercetin Plus front label artwork"
                 }
               ].map((image) => (
@@ -195,7 +195,7 @@ export default function ProductPage() {
         <div className="grid gap-7 lg:grid-cols-[0.85fr_1.15fr]">
           <div className="overflow-hidden rounded-[8px] border border-air-green/10 bg-white shadow-soft">
             <Image
-              src="/images/quercetin-plus-supplement-facts.png"
+              src="/images/quercetin-plus-supplement-facts.webp"
               alt="Supplement Facts for AirKind Quercetin Plus"
               width={520}
               height={650}

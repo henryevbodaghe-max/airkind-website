@@ -96,7 +96,7 @@ export default function HomePage() {
         <div className="grid gap-6 lg:grid-cols-[0.95fr_1.05fr] lg:items-start">
           <div className="overflow-hidden rounded-[8px] border border-air-green/10 bg-white shadow-soft">
             <Image
-              src="/images/quercetin-plus-supplement-facts.png"
+              src="/images/quercetin-plus-supplement-facts.webp"
               alt="AirKind Quercetin Plus supplement facts panel"
               width={520}
               height={650}

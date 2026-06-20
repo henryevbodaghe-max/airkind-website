@@ -20,7 +20,7 @@ export default function AboutPage() {
         <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
           <div className="overflow-hidden rounded-[8px] border border-air-green/10 bg-white shadow-soft">
             <Image
-              src="/images/quercetin-plus-bottle-lifestyle.jpg"
+              src="/images/quercetin-plus-bottle-lifestyle.webp"
               alt="AirKind Quercetin Plus bottle on a light product set"
               width={1122}
               height={1402}

@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     siteName: "AirKind",
     images: [
       {
-        url: "/images/quercetin-plus-bottle-lifestyle.jpg",
+        url: "/images/quercetin-plus-bottle-lifestyle.webp",
         width: 1122,
         height: 1402,
         alt: "AirKind Quercetin Plus bottle"
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "AirKind Quercetin Plus",
     description: "Daily Respiratory & Immune Support with quercetin, zinc, and bromelain.",
-    images: ["/images/quercetin-plus-bottle-lifestyle.jpg"]
+    images: ["/images/quercetin-plus-bottle-lifestyle.webp"]
   }
 };
 

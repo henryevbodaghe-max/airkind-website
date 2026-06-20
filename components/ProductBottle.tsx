@@ -12,7 +12,7 @@ export function ProductBottle({
       className={`relative mx-auto aspect-[4/5] w-full max-w-full overflow-hidden rounded-[8px] bg-air-white shadow-soft sm:max-w-sm ${className}`}
     >
       <Image
-        src="/images/quercetin-plus-bottle-front.jpg"
+        src="/images/quercetin-plus-bottle-front.webp"
         alt="AirKind Quercetin Plus bottle"
         fill
         priority={priority}
