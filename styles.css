@@ -355,6 +355,23 @@ p {
   text-align: center;
 }
 
+.product-image {
+  display: grid;
+  min-height: 420px;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  box-shadow: var(--shadow);
+}
+
+.product-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .detail-list {
   display: grid;
   gap: 18px;
@@ -469,7 +486,8 @@ p {
     flex-direction: column;
   }
 
-  .placeholder-image {
+  .placeholder-image,
+  .product-image {
     min-height: 300px;
   }
 }

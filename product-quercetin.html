@@ -33,7 +33,27 @@
 
       <section class="section">
         <div class="section-inner product-layout">
-          <div class="placeholder-image">Product image placeholder</div>
+          <picture class="product-image">
+            <source
+              media="(max-width: 640px)"
+              srcset="images/optimized/quercetin-plus-bottle-front-thumb.webp 240w, images/optimized/quercetin-plus-bottle-front-product.webp 560w"
+              sizes="(max-width: 640px) 80vw, 360px"
+              type="image/webp"
+            >
+            <source
+              srcset="images/optimized/quercetin-plus-bottle-front-product.webp 560w, images/optimized/quercetin-plus-bottle-front-hero.webp 768w"
+              sizes="(max-width: 900px) 80vw, 420px"
+              type="image/webp"
+            >
+            <img
+              src="images/optimized/quercetin-plus-bottle-front-product.webp"
+              alt="AirKind Quercetin Plus bottle"
+              width="560"
+              height="700"
+              loading="eager"
+              decoding="async"
+            >
+          </picture>
           <div>
             <span class="product-badge">Availability to be announced</span>
             <h2>A clean capsule-format concept.</h2>
