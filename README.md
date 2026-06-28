@@ -1,44 +1,70 @@
-# AirKind Static Website
+# AirKind Website
 
-Plain static website for AirKind. No framework, no npm, and no build step.
+Premium supplement brand website for AirKind, built with Next.js, TypeScript, and Tailwind CSS.
 
-## Files
+## Pages
 
-- `index.html`
-- `product-mushroom.html`
-- `product-quercetin.html`
-- `about.html`
-- `faq.html`
-- `contact.html`
-- `disclaimer.html`
-- `privacy.html`
-- `terms.html`
-- `styles.css`
+- Home
+- Product
+- Ingredients
+- About
+- Science
+- FAQ
+- Contact
+- Disclaimer
+- Privacy Policy
+- Terms
 
-## Local preview
+## Compliance Notes
 
-Open `index.html` in a browser, or serve the folder with any static file server.
+The site uses supplement structure/function language only, including:
 
-## Vercel deployment
+- supports healthy skin
+- supports focus
+- supports immune health
+- supports energy
+- supports healthy aging
+- supports joint comfort
 
-1. Import this repository in Vercel.
-2. Set the framework preset to `Other`.
-3. Leave the build command blank.
-4. Leave the output directory blank, or set it to `.`.
-5. Deploy from the `main` branch.
+It avoids medical treatment, cure, and prevention claims. The FDA disclaimer is included on the product page and footer.
 
-## Netlify deployment
+## Setup
 
-1. Create a new site from Git.
-2. Select this repository.
-3. Leave the build command blank.
-4. Set the publish directory to `.`.
-5. Deploy from the `main` branch.
+```bash
+npm install
+npm run dev
+```
 
-## Other static hosts
+Open `http://localhost:3000`.
 
-This site can also be deployed to GitHub Pages, Cloudflare Pages, or any static host. The publish directory is the repository root.
+## Build
 
-## Compliance notes
+```bash
+npm run build
+```
 
-The site uses conservative wellness-support language and includes the FDA supplement disclaimer. Product ingredient and suggested-use sections are placeholders until final packaging is approved.
+## Structure
+
+```text
+app/
+  page.tsx
+  product/page.tsx
+  ingredients/page.tsx
+  about/page.tsx
+  science/page.tsx
+  faq/page.tsx
+  contact/page.tsx
+  disclaimer/page.tsx
+  privacy/page.tsx
+  terms/page.tsx
+components/
+  Button.tsx
+  Disclosure.tsx
+  EmailSignup.tsx
+  Footer.tsx
+  Navigation.tsx
+  ProductBottle.tsx
+  Section.tsx
+lib/
+  content.ts
+```
