@@ -1,5 +1,6 @@
-import { Check, Droplets, Sparkles } from "lucide-react";
+import { Check, Sparkles } from "lucide-react";
 import { Button } from "@/components/Button";
+import { HydrationPreview } from "@/components/HydrationPreview";
 
 const highlights = [
   "Zero sugar",
@@ -41,57 +42,7 @@ export function HydrationComingSoon() {
           </div>
         </div>
 
-        <div className="relative min-h-[420px] overflow-hidden bg-gradient-to-br from-air-mist via-air-white to-air-cream p-8 sm:p-10">
-          <div className="absolute right-8 top-8 rounded-full border border-air-green/15 bg-white/60 px-4 py-2 text-xs font-bold uppercase tracking-[0.18em] text-air-green">
-            Zero Sugar
-          </div>
-          <div className="absolute -bottom-24 -left-20 h-72 w-72 rounded-full bg-air-blue/30 blur-3xl" />
-          <div className="absolute -right-16 bottom-10 h-64 w-64 rounded-full bg-air-moss/25 blur-3xl" />
-
-          <div className="relative mx-auto flex h-full max-w-lg items-center justify-center">
-            <div className="grid w-full grid-cols-[1fr_0.54fr] items-end gap-5">
-              <div className="rounded-[8px] border border-air-green/12 bg-white/88 p-5 shadow-soft">
-                <div className="rounded-[8px] bg-air-green p-4 text-white">
-                  <Droplets className="h-8 w-8 text-air-gold" aria-hidden="true" />
-                  <p className="mt-16 text-xs font-bold uppercase tracking-[0.22em] text-air-gold">
-                    Daily Electrolyte Drink Mix
-                  </p>
-                  <p className="mt-3 font-serif text-4xl font-semibold leading-none">
-                    AirKind
-                  </p>
-                  <p className="mt-2 text-2xl font-semibold uppercase tracking-[0.12em] text-air-mist">
-                    Hydration+
-                  </p>
-                </div>
-                <div className="mt-4 rounded-[8px] bg-air-mist px-4 py-3 text-center text-xs font-bold uppercase tracking-[0.16em] text-air-green">
-                  Clean Hydration. Everyday Wellness.
-                </div>
-              </div>
-
-              <div className="space-y-3">
-                {["Lemon Citrus", "Berry Lime", "Cucumber Mint"].map((flavor, index) => (
-                  <div
-                    key={flavor}
-                    className="min-h-28 rounded-[8px] border border-air-green/10 bg-white/86 px-3 py-4 text-center shadow-sm"
-                  >
-                    <Droplets
-                      className={`mx-auto h-5 w-5 ${
-                        index === 1 ? "text-rose-500" : index === 2 ? "text-air-moss" : "text-air-gold"
-                      }`}
-                      aria-hidden="true"
-                    />
-                    <p className="mt-4 text-[10px] font-bold uppercase tracking-[0.16em] text-air-green">
-                      Hydration+
-                    </p>
-                    <p className="mt-2 text-xs font-semibold text-air-charcoal/70">
-                      {flavor}
-                    </p>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
+        <HydrationPreview />
       </div>
     </section>
   );
