@@ -3,6 +3,7 @@ import { Check, MapPin, PackageCheck, Repeat, Sprout } from "lucide-react";
 import { Button } from "@/components/Button";
 import { Disclosure } from "@/components/Disclosure";
 import { EmailSignup } from "@/components/EmailSignup";
+import { HydrationComingSoon } from "@/components/HydrationComingSoon";
 import { ProductBottle } from "@/components/ProductBottle";
 import { Section } from "@/components/Section";
 import { benefits, faqs, ingredientDetails, ingredients, product } from "@/lib/content";
@@ -162,6 +163,8 @@ export default function HomePage() {
           })}
         </div>
       </Section>
+
+      <HydrationComingSoon />
 
       <section className="px-5 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto grid max-w-6xl gap-8 rounded-[8px] bg-air-green p-8 text-white shadow-soft sm:p-10 lg:grid-cols-[1fr_auto] lg:items-center">
